@@ -11,7 +11,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 
 # Bot token can be obtained via https://t.me/BotFather
-TOKEN = "6929944222:AAEOpQePZKIHGWhAEwRhKs_H7KiE4Te_CbQ"
+TOKEN = ""
 
 # All handlers should be attached to the Router (or Dispatcher)
 dp = Dispatcher()
