@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ac832cda-f86f-4f27-9f47-3fb43a0a3465" name="Changes" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Echobot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Echobot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wikitest_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Wikitest_bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Echobot.executor": "Run",
-    "Python.WikiBot.executor": "Run",
-    "Python.Wikibbot.executor": "Run",
-    "Python.Wikitest_bot.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "WikiBot"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Echobot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.WikiBot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Wikibbot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Wikitest_bot.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;WikiBot&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\New\PycharmProjects\pythonProject2" />
