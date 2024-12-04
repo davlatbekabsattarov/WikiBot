@@ -17,7 +17,7 @@ dp = Dispatcher()
 @dp.message(CommandStart())
 async def command_start_handler(message: Message) -> None:
 
-    await message.answer(f"Assalamu aleykum, {html.bold.italic(message.from_user.full_name)}!\n Qidirmoqchi bo'lgan ma'lumotingizni kiriting:")
+    await message.answer(f"Assalamu aleykum, {html.italic(message.from_user.full_name)}!\n Qidirmoqchi bo'lgan ma'lumotingizni kiriting:")
 
 @dp.message()
 async def wiki_sender(message: types.Message):
