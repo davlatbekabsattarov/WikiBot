@@ -24,7 +24,7 @@ async def wiki_sender(message: types.Message):
 
     try:
         response=wikipedia.summary(message.text)
-        await message.answer(response)
+        await message.answer(response, "Yana nimani topay?")
     except TypeError:
         # But not all the types is supported to be copied so need to handle it
         await message.answer("Yaxshi urunish!")
