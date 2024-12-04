@@ -17,14 +17,14 @@ dp = Dispatcher()
 @dp.message(CommandStart())
 async def command_start_handler(message: Message) -> None:
 
-    await message.answer(f"Assalamu aleykum, {html.bold(message.from_user.full_name)}!\n Qidirmoqchi bo'lgan ma'lumotingizni kiriting:")
+    await message.answer(f"Assalamu aleykum, {html.bold.italic(message.from_user.full_name)}!\n Qidirmoqchi bo'lgan ma'lumotingizni kiriting:")
 
 @dp.message()
 async def wiki_sender(message: types.Message):
 
     try:
         response=wikipedia.summary(message.text)
-        await message.answer(response, "Yana nimani topay?")
+        await message.answer(response)
     except TypeError:
         # But not all the types is supported to be copied so need to handle it
         await message.answer("Yaxshi urunish!")
